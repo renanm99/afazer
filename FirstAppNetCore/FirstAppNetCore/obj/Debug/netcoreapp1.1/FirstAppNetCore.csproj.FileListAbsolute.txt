@@ -1,0 +1,12 @@
+C:\Users\ercil\source\repos\FirstAppNetCore\FirstAppNetCore\bin\Debug\netcoreapp1.1\FirstAppNetCore.deps.json
+C:\Users\ercil\source\repos\FirstAppNetCore\FirstAppNetCore\bin\Debug\netcoreapp1.1\FirstAppNetCore.runtimeconfig.json
+C:\Users\ercil\source\repos\FirstAppNetCore\FirstAppNetCore\bin\Debug\netcoreapp1.1\FirstAppNetCore.runtimeconfig.dev.json
+C:\Users\ercil\source\repos\FirstAppNetCore\FirstAppNetCore\bin\Debug\netcoreapp1.1\FirstAppNetCore.dll
+C:\Users\ercil\source\repos\FirstAppNetCore\FirstAppNetCore\bin\Debug\netcoreapp1.1\FirstAppNetCore.pdb
+C:\Users\ercil\source\repos\FirstAppNetCore\FirstAppNetCore\obj\Debug\netcoreapp1.1\FirstAppNetCore.csprojResolveAssemblyReference.cache
+C:\Users\ercil\source\repos\FirstAppNetCore\FirstAppNetCore\obj\Debug\netcoreapp1.1\FirstAppNetCore.csproj.CoreCompileInputs.cache
+C:\Users\ercil\source\repos\FirstAppNetCore\FirstAppNetCore\obj\Debug\netcoreapp1.1\FirstAppNetCore.AssemblyInfo.cs
+C:\Users\ercil\source\repos\FirstAppNetCore\FirstAppNetCore\obj\Debug\netcoreapp1.1\FirstAppNetCore.dll
+C:\Users\ercil\source\repos\FirstAppNetCore\FirstAppNetCore\obj\Debug\netcoreapp1.1\FirstAppNetCore.pdb
+C:\Users\ercil\source\repos\FirstAppNetCore\FirstAppNetCore\bin\Debug\netcoreapp1.1\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\ercil\source\repos\FirstAppNetCore\FirstAppNetCore\bin\Debug\netcoreapp1.1\DocumentDB.Spatial.Sql.dll

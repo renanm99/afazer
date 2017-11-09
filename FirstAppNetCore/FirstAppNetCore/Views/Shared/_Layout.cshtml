@@ -1,0 +1,215 @@
+﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Construction is ultimate responsive construction html template which include 3 homepage demos."/>
+    <title>@ViewData["Title"] - FirstAppNetCore</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+    <environment names="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <link href="~/css/animate.min.css" rel="stylesheet" />
+        <link href="~/css/base.css" rel="stylesheet" />
+        <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="~/css/elegant-line-icons.css" rel="stylesheet" />
+        <link href="~/css/main.css" rel="stylesheet" />
+        <link href="~/css/meanmenu.css" rel="stylesheet" />
+        <link href="~/css/owl.carousel.min.css" rel="stylesheet" />
+        <link href="~/css/responsive.css" rel="stylesheet" />
+        <link href="~/css/swipebox.min.css" rel="stylesheet" />
+        <link href="~/css/themify-icons.css" rel="stylesheet" />
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+    @Html.Raw(JavaScriptSnippet.FullScript)
+</head>
+<body>
+    <header id="header" class="header sticky-header">
+
+        <div class="top-header bg-dark">
+            <div class="container">
+                <div class="col-md-6">
+                    <ul class="top-info">
+                        <li><i class="ti-mobile"></i> 983 592 88 52</li>
+                        <li><a href="mailto:mail@domain.com"><i class="ti-email"></i> mail@domain.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-right sm-text-left">
+                    <ul class="top-social">
+                        <li><a href="#"><i class="ti-facebook"></i></a></li>
+                        <li><a href="#"><i class="ti-twitter"></i></a></li>
+                        <li><a href="#"><i class="ti-google"></i></a></li>
+                        <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                        <li><a href="#"><i class="ti-instagram"></i></a></li>
+                        <li class="fz-13">Thousday July 4 , 2017</li>
+                    </ul>
+                </div>
+            </div>
+        </div><!-- /.top-header -->
+
+        <div class="mid-header">
+            <div class="container">
+                <div class="site-branding full-left">
+                    <a href="/home"><img src="~/img/logo.jpg" alt="News24"></a>
+                </div><!-- /.site-branding -->
+                <div class="banner pull-right">
+                    <a href="#"><img src="~/img/banner.jpg" alt="News24 Banner"></a>
+                </div><!-- /.banner -->
+            </div>
+        </div><!-- /.mid-header -->
+
+        <div class="mainmenu-wrap bg-red">
+            <div class="container">
+                <div class="col-md-9 col-xs-6">
+                    <div class="menu-wrap mean-menu">
+                        <nav class="mainmenu">
+                            <ul id="navi-menu">
+                                <li class="current_page_item">
+                                    <a href="/home">Home</a>
+                                    <ul>
+                                        <li><a href="/home">Home Right Sidebar</a></li>
+                                        <li><a href="/home">Home Left Sidebar</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="/home/about">About</a></li>
+                                <li><a href="/home/contact">Contact</a></li>
+                                <li><a href="/Artigos">Artigos</a></li>
+                                <li><a href="/Approve">Aprovar</a></li>
+                                <li>
+                                    <a href="#">Page</a>
+                                    <ul>
+                                        <li><a href="#">News Single</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <form action="#" class="search-form">
+                        <input type="text" placeholder="Search news..">
+                        <button class="submit" type="submit"><i class="ti-search"></i></button>
+                    </form>
+                </div>
+                <div class="mobile-menu"></div>
+            </div>
+        </div><!-- /.mainmenu-wrap -->
+
+    </header><!-- /.header -->
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer class="footer-wrapper bg-dark">
+            <div class="footer-widgets padding">
+                <div class="container">
+                    <div class="col-md-4 col-xs-6 sm-padding">
+                        <div class="single-widget">
+                            <a href="#" class="footer-logo"><img src="~/img/logo-light.png" alt="News24"></a>
+                            <p class="text-light no-margin">News24 is a Clean Responsive HTML News-paper, Magazine, News and Blog template. with good feature that allow you to completely customize your website to your needs.</p>
+                        </div>
+                    </div><!-- widget 1 -->
+                    <div class="col-md-4 col-xs-6 sm-padding">
+                        <div class="single-widget">
+                            <h3>Most Viwed</h3>
+                            <div class="footer-posts">
+                                <div class="footer-post">
+                                    <span class="date">Oct 28, 2016</span>
+                                    <h4><a href="#">Success is not a good teacher failure makes you humble</a></h4>
+                                </div>
+                                <div class="footer-post">
+                                    <span class="date">Oct 28, 2016</span>
+                                    <h4><a href="#">Success is not a good teacher failure makes you humble</a></h4>
+                                </div>
+                            </div><!-- /.footer-posts -->
+                        </div>
+                    </div><!-- widget 2 -->
+                    <div class="col-md-4 col-xs-12 sm-padding">
+                        <div class="single-widget">
+                            <h3>Most Viwed</h3>
+                            <ul class="tag-list">
+                                <li><a href="#">Worlds</a></li>
+                                <li><a href="#">Entertainment</a></li>
+                                <li><a href="#">Health</a></li>
+                                <li><a href="#">Football</a></li>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Fasion</a></li>
+                                <li><a href="#">Health</a></li>
+                                <li><a href="#">Western Foods</a></li>
+                                <li><a href="#">Western Foods</a></li>
+                                <li><a href="#">Race</a></li>
+                                <li><a href="#">Football</a></li>
+                                <li><a href="#">Foods</a></li>
+                            </ul>
+                        </div>
+                    </div><!-- widget 3 -->
+                </div>
+            </div><!-- /.footer-widgets -->
+            <div class="footer-copyright ptb-40">
+                <div class="container">
+                    <div class="col-xs-6 xs-padding xs-text-center">
+                        <p class="no-margin fz-13 text-light">&copy; Copyright Crackthemes  2017, All Rights Reserved</p>
+                    </div>
+                    <div class="col-xs-6 xs-padding">
+                        <ul class="footer-social text-right xs-text-center">
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="ti-google"></i></a></li>
+                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                            <li><a href="#"><i class="ti-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer><!-- /.footer-wrapper -->
+
+        <a data-scroll href="#header" id="scroll-top" class="scroll-to-top"><i class="ti-angle-up"></i></a>
+        <!-- All Scripts -->
+        <script src="~/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="~/js/vendor/waypoints.min.js"></script>
+        <script src="~/js/vendor/wow.min.js"></script>
+        <script src="~/js/vendor/bootstrap.min.js"></script>
+        <script src="~/js/vendor/jquery.nicescroll.min.js"></script>
+        <script src="~/js/vendor/owl.carousel.min.js"></script>
+        <script src="~/js/vendor/jquery.meanmenu.min.js"></script>
+        <script src="~/js/vendor/smooth-scroll.min.js"></script>
+        <script src="~/js/vendor/jquery.counterup.min.js"></script>
+        <script src="~/js/vendor/jquery.swipebox.min.js"></script>
+        <script src="~/js/vendor/jquery.newsTicker.min.js"></script>
+        <script src="~/js/main.js"></script>
+
+    </div>
+
+    <environment names="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

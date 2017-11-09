@@ -1,0 +1,51 @@
+@model IEnumerable<FirstAppNetCore.Models.FeedModel>
+
+    @{
+        ViewData["Title"] = "Artigos";
+        Layout = "~/Views/Artigos/_Artigos.cshtml";
+    }
+
+
+@foreach (var item in Model)
+{
+    <div style="margin-top:-20px;margin-left:-30px;padding-right:-100px;">
+    <section class="main-wrapper bg-grey">
+        <div class="container">
+            <div class="main-content mt-20 ov-hidden">
+                <div class="col-md-8 sm-padding">
+                    <div class="blog-details padding-25 bg-white bd-grey mb-30">
+                        <figure>
+                            <img src="@Html.DisplayFor(modelItem => item.Img)" alt="" class="img-w1">
+                        </figure>
+                        <h2 class="mb-5 fw-6"><a href="@Html.DisplayFor(modelItem => item.Link)">@Html.DisplayFor(modelItem => item.Title)</a></h2>
+                        <div class="meta-info mb-25">
+                            <span>
+                                <i class="ti-calendar fz-18"></i> <a>@Html.DisplayFor(modelItem => item.PublishDate)</a>
+                            </span>
+                        </div><!-- blog-details -->
+                        <p>@Html.DisplayFor(modelItem => item.Content)</p>
+                        <ul class="single-tags">
+                            <li>Tags</li>
+                            <li><a href="#">Sports</a></li>
+                            <li><a href="#">Travel</a></li>
+                        </ul>
+                        <div class="social-share-wrap">
+                            <span class="fz-16 text-black fw-6">Share This Article</span>
+                            <ul class="share-icon">
+                                <li><a href="#"><i class="ti-facebook"></i> Facebook</a></li>
+                                <li><a href="#"><i class="ti-twitter"></i> Twitter</a></li>
+                                <li><a href="#"><i class="ti-google"></i> Google+</a></li>
+                            </ul>
+                        </div><!-- social-share-wrap -->
+                    </div><!-- /.blog-details -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+}
+
+
+
+
