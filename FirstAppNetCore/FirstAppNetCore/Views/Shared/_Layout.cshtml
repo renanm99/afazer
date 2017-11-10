@@ -5,8 +5,22 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Construction is ultimate responsive construction html template which include 3 homepage demos."/>
-    <title>@ViewData["Title"] - FirstAppNetCore</title>
+    <meta name="description" content="IoT News | Strategies | Platforms | Use Cases">
+    <title>IoT Newspaper</title>
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107583047-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-107583047-1');
+    </script>
+
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
@@ -40,18 +54,18 @@
             <div class="container">
                 <div class="col-md-6">
                     <ul class="top-info">
-                        <li><i class="ti-mobile"></i> 983 592 88 52</li>
-                        <li><a href="mailto:mail@domain.com"><i class="ti-email"></i> mail@domain.com</a></li>
+                        <li><i class="ti-mobile"></i> 415 283-6768</li>
+                        <!--<li><a href="mailto:mail@domain.com"><i class="ti-email"></i> mail@domain.com</a></li>-->
                     </ul>
                 </div>
                 <div class="col-md-6 text-right sm-text-left">
                     <ul class="top-social">
-                        <li><a href="#"><i class="ti-facebook"></i></a></li>
-                        <li><a href="#"><i class="ti-twitter"></i></a></li>
-                        <li><a href="#"><i class="ti-google"></i></a></li>
-                        <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                        <li><a href="#"><i class="ti-instagram"></i></a></li>
-                        <li class="fz-13">Thousday July 4 , 2017</li>
+                        <li><a href="http://www.facebook.com/iotnewspaper"><i class="ti-facebook"></i></a></li>
+                        <li><a href="http://www.twitter.com/iotnewspaper"><i class="ti-twitter"></i></a></li>
+                        <!--<li><a href="#"><i class="ti-google"></i></a></li>
+		                    <li><a href="#"><i class="ti-pinterest"></i></a></li>
+		                    <li><a href="#"><i class="ti-instagram"></i></a></li>
+		                    <li class="fz-13">Thousday July 4 , 2017</li>-->
                     </ul>
                 </div>
             </div>
@@ -60,11 +74,8 @@
         <div class="mid-header">
             <div class="container">
                 <div class="site-branding full-left">
-                    <a href="/home"><img src="~/img/logo.jpg" alt="News24"></a>
+                    <a href="/home"><img src="~/img/logo.png" alt="News24"></a>
                 </div><!-- /.site-branding -->
-                <div class="banner pull-right">
-                    <a href="#"><img src="~/img/banner.jpg" alt="News24 Banner"></a>
-                </div><!-- /.banner -->
             </div>
         </div><!-- /.mid-header -->
 
@@ -76,20 +87,6 @@
                             <ul id="navi-menu">
                                 <li class="current_page_item">
                                     <a href="/home">Home</a>
-                                    <ul>
-                                        <li><a href="/home">Home Right Sidebar</a></li>
-                                        <li><a href="/home">Home Left Sidebar</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="/home/about">About</a></li>
-                                <li><a href="/home/contact">Contact</a></li>
-                                <li><a href="/Artigos">Artigos</a></li>
-                                <li><a href="/Approve">Aprovar</a></li>
-                                <li>
-                                    <a href="#">Page</a>
-                                    <ul>
-                                        <li><a href="#">News Single</a></li>
-                                    </ul>
                                 </li>
                             </ul>
                         </nav>
@@ -106,66 +103,64 @@
         </div><!-- /.mainmenu-wrap -->
 
     </header><!-- /.header -->
-    <div class="container body-content">
         @RenderBody()
         <hr />
         <footer class="footer-wrapper bg-dark">
             <div class="footer-widgets padding">
-                <div class="container">
-                    <div class="col-md-4 col-xs-6 sm-padding">
-                        <div class="single-widget">
-                            <a href="#" class="footer-logo"><img src="~/img/logo-light.png" alt="News24"></a>
-                            <p class="text-light no-margin">News24 is a Clean Responsive HTML News-paper, Magazine, News and Blog template. with good feature that allow you to completely customize your website to your needs.</p>
-                        </div>
-                    </div><!-- widget 1 -->
-                    <div class="col-md-4 col-xs-6 sm-padding">
-                        <div class="single-widget">
-                            <h3>Most Viwed</h3>
-                            <div class="footer-posts">
-                                <div class="footer-post">
-                                    <span class="date">Oct 28, 2016</span>
-                                    <h4><a href="#">Success is not a good teacher failure makes you humble</a></h4>
-                                </div>
-                                <div class="footer-post">
-                                    <span class="date">Oct 28, 2016</span>
-                                    <h4><a href="#">Success is not a good teacher failure makes you humble</a></h4>
-                                </div>
-                            </div><!-- /.footer-posts -->
-                        </div>
-                    </div><!-- widget 2 -->
-                    <div class="col-md-4 col-xs-12 sm-padding">
-                        <div class="single-widget">
-                            <h3>Most Viwed</h3>
-                            <ul class="tag-list">
-                                <li><a href="#">Worlds</a></li>
-                                <li><a href="#">Entertainment</a></li>
-                                <li><a href="#">Health</a></li>
-                                <li><a href="#">Football</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Fasion</a></li>
-                                <li><a href="#">Health</a></li>
-                                <li><a href="#">Western Foods</a></li>
-                                <li><a href="#">Western Foods</a></li>
-                                <li><a href="#">Race</a></li>
-                                <li><a href="#">Football</a></li>
-                                <li><a href="#">Foods</a></li>
-                            </ul>
-                        </div>
-                    </div><!-- widget 3 -->
+            <div class="container">
+                <div class="col-md-4 col-xs-6 sm-padding">
+                    <div class="single-widget">
+                        <a href="#" class="footer-logo"><img src="img/logo.png" alt="News24"></a>
+                        <p class="text-light no-margin">We are a curated website and email subscription service focused on current trends about Internet
+                            of Things. News, IoT Platforms, Strategies, Use Cases focused on Internet of Things Market. We
+                            will be the easiest way to you become updated. </p>
+                    </div>
                 </div>
-            </div><!-- /.footer-widgets -->
+                <!-- widget 1 -->
+                <div class="col-md-4 col-xs-6 sm-padding">
+                    <div class="single-widget">
+                        <h3>Most Viwed</h3>
+                        <div class="footer-posts">
+                            <div class="footer-post">
+                                <span class="date">Oct 01, 2017</span>
+                                <h4><a href="https://techcrunch.com/2017/09/27/amazon-announces-a-high-end-99-echo-to-compete-with-apples-homepod/">Amazon announces a high-end $99 Echo to compete with Apple’s HomePod</a></h4>
+                            </div>
+                            <div class="footer-post">
+                                <span class="date">Oct 01, 2017</span>
+                                <h4><a href="https://www.ibm.com/blogs/internet-of-things/iot-army-reups/">Army Re-Ups with IBM for logistics, savings and vehicle health</a></h4>
+                            </div>
+                        </div>
+                        <!-- /.footer-posts -->
+                    </div>
+                </div>
+                <!-- widget 2 -->
+                <div class="col-md-4 col-xs-12 sm-padding">
+                    <div class="single-widget">
+                        <h3>Most Viwed</h3>
+                        <ul class="tag-list">
+                            <li><a href="#">IoT</a></li>
+                            <li><a href="#">Watson</a></li>
+                            <li><a href="#">Azure</a></li>
+                            <li><a href="#">Smart Cities</a></li>
+                            <li><a href="#">Healthcare</a></li>
+                            <li><a href="#">5G</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- widget 3 -->
+            </div>
+        </div><!-- /.footer-widgets -->
             <div class="footer-copyright ptb-40">
                 <div class="container">
                     <div class="col-xs-6 xs-padding xs-text-center">
-                        <p class="no-margin fz-13 text-light">&copy; Copyright Crackthemes  2017, All Rights Reserved</p>
+                        <p class="no-margin fz-13 text-light">&copy; Copyright IoT Newspaper 2017, All Rights Reserved</p>
                     </div>
                     <div class="col-xs-6 xs-padding">
                         <ul class="footer-social text-right xs-text-center">
-                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#"><i class="ti-twitter"></i></a></li>
-                            <li><a href="#"><i class="ti-google"></i></a></li>
-                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                            <li><a href="#"><i class="ti-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/iotnewspaper"><i class="ti-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/iotnewspaper"><i class="ti-twitter"></i></a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -186,8 +181,6 @@
         <script src="~/js/vendor/jquery.swipebox.min.js"></script>
         <script src="~/js/vendor/jquery.newsTicker.min.js"></script>
         <script src="~/js/main.js"></script>
-
-    </div>
 
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
